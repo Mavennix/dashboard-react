@@ -33,10 +33,10 @@ const areaStyle = {
     background: 'rgba(2, 148, 255, 0.126274)'
 };
 
-export class AreaChartView extends Component {
+export class OtherChart extends Component {
     render() {
         return (
-            <div style={{ width: '100%', height: '100%' }}>
+            <div className="res-height" style={{ width: '100%' }}>
                 <ResponsiveContainer>
                     <AreaChart
                         data={data}
@@ -51,4 +51,4 @@ export class AreaChartView extends Component {
     }
 }
 
-export default AreaChartView;
+export default OtherChart;

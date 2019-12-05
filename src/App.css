@@ -71,3 +71,34 @@ nav {
     height: 20px;
     background: #1875F0;
 }
+
+.table .thead-light th {
+    color: #7f8fa4;
+    background-color: #EAEEF0;
+    border-color: #EAEEF0;
+}
+
+.table-title__icon {
+    width: 40px;
+    height: 40px;
+    background: #7F8FA4;
+    color: #fff;
+    text-align: center;
+    align-self: center;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+tbody > tr {
+    height: 64px !important;
+}
+
+@media only screen and (min-width: 1024px) {
+    .res-height {
+        height: 43vh;
+    }
+}
+
